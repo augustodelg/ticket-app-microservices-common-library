@@ -1,7 +1,5 @@
 import { Request, Response, NextFunction, ErrorRequestHandler } from "express";
-import { RequestValidationError } from "../errors/requestValidationError";
-import { DatabaseConnectionError } from "../errors/databaseConnectionError";
-import { CustomError } from "../errors/curstomError";
+import { CustomError } from "../errors/customError";
 
 export const errorHandler: ErrorRequestHandler = (
     err: Error,
