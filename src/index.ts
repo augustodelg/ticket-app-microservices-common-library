@@ -14,5 +14,9 @@ export * from './middlewares/validateRequest';
 export * from './events/abstractListener';
 export * from './events/abstractPublisher';
 export * from './events/subjects';
+
 export * from './events/tickets/ticketCreatedEvent';
 export * from './events/tickets/ticketUpdatedEvent';
+
+export * from './events/orders/orderCreatedEvent';
+export * from './events/orders/orderCancelledEvent';
