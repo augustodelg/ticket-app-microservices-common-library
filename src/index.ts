@@ -21,5 +21,7 @@ export * from './events/tickets/ticketUpdatedEvent';
 export * from './events/orders/orderCreatedEvent';
 export * from './events/orders/orderCancelledEvent';
 
+export * from './events/expiration/expirationCompleteEvent';
+
 
 export * from './events/types/orderStatus';
