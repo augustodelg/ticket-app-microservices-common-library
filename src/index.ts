@@ -20,10 +20,11 @@ export * from './events/tickets/ticketUpdatedEvent';
 
 export * from './events/orders/orderCreatedEvent';
 export * from './events/orders/orderCancelledEvent';
-export * from './events/orders/orderAwaitingPaymentEvent';
+export * from './events/payments/paymentCompleteEvent';
 
 export * from './events/expiration/expirationCompleteEvent';
 
 export * from './events/payments/paymentCreatedEvent'
+export * from './events/payments/paymentCompleteEvent'
 
 export * from './events/types/orderStatus';
