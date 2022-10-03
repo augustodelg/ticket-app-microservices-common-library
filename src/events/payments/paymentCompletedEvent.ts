@@ -2,8 +2,8 @@ import { Subjects } from "../subjects";
 import { OrderStatus } from "../types/orderStatus";
 
 
-export interface PaymentCompleteEvent {
-    subject: Subjects.PaymentComplete;
+export interface PaymentCompletedEvent {
+    subject: Subjects.PaymentCompleted;
     data: {
         id: string;
         orderId: string;
