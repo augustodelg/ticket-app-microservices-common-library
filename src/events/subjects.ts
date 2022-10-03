@@ -10,4 +10,5 @@ export enum Subjects {
 
     PaymentCreated = 'payment:created',
     PaymentCompleted = 'payment:completed'
+    
 }
